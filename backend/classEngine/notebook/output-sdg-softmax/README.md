@@ -260,7 +260,7 @@ Then you can load this model and run inference.
 ```python
 from sentence_transformers import SentenceTransformer
 
-# Download from the 🤗 Hub
+# Download from the Hub
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
